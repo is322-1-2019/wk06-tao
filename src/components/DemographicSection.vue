@@ -55,7 +55,11 @@
       </div>
       <div class="form-group col-md-4">
         <label for="city">City</label>
-        <input type="text" v-model="demoInfo.city" class="form-control" id="city" />
+        <select  v-model="demoInfo.city" id="city" class="form-control">
+          <option selected>Bangkok</option>
+          <option>Krabi</option>
+          <option>Udonthani</option>
+        </select>
       </div>
       <div class="form-group col-md-2">
         <label for="postcode">Postcode</label>
