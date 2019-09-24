@@ -9,17 +9,20 @@
       </div>
       <demographic-section class="card-body"></demographic-section>
       <question-section class="card-body"></question-section>
+      <Footer class="card-footer"></Footer>
     </div>
   </div>
 </template>
 <script>
 import DemographicSection from "./DemographicSection.vue";
 import QuestionSection from "./QuestionSection.vue";
+import Footer from "./questionnaire/Footer.vue";
 
 export default {
   components: {
     DemographicSection,
-    QuestionSection
+    QuestionSection,
+    Footer
   }
 };
 </script>

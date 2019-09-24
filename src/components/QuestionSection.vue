@@ -27,7 +27,7 @@ import ChoiceQuestion from "./questionnaire/ChoiceQuestion.vue";
 export default {
   components: {
     LikertQuestion,
-    ChoiceQuestion
+    ChoiceQuestion,
   },
   data: function() {
     return {
